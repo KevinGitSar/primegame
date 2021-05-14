@@ -1,6 +1,6 @@
 # Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Prime Number Quiz Game!
+Created using create-react-app
 
 ## Available Scripts
 
