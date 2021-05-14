@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 Prime Number Quiz Game!
-
+Created using create-react-app
 
 ## Available Scripts
 
