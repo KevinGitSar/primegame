@@ -36,3 +36,329 @@
     transform: rotate(360deg);
   }
 }
+
+.btn{
+  background-color: white;
+}
+
+.btn-outline-primary{
+  color: #38618c;
+  border-color: #38618c;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active{
+  background-color: #38618c;
+  border-color: #38618c;
+}
+
+.btn-outline-primary:focus{
+  box-shadow: 0 0 0 0.2rem rgb(56 97 140 / 50%);
+}
+
+.btn-outline-warning a{
+  color: black;
+}
+
+.btn-outline-secondary{
+  color: #35a7ff;
+  border-color: #35a7ff;
+}
+
+.btn-outline-secondary:hover, .btn-outline-secondary:active, .btn-outline-secondary:not(:disabled):not(.disabled).active, .btn-outline-secondary:not(:disabled):not(.disabled):active{
+  background-color: #35a7ff;
+  border-color: #35a7ff;
+}
+
+.btn-outline-danger{
+  color: #ff5964;
+  border-color: #ff5964;
+}
+
+.btn-outline-danger:hover, .btn-outline-danger:active, .btn-outline-danger:not(:disabled):not(.disabled).active, .btn-outline-danger:not(:disabled):not(.disabled):active{
+  background-color: #ff5964;
+  border-color: #ff5964;
+}
+
+body{
+  background-color: #e0e0e0;
+}
+
+@media (max-width: 576px){
+
+  .navbar-nav{
+    flex-direction: unset !important;
+  }
+
+  .navbar-nav li{
+    padding-right: 15px;
+  }
+
+  h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  h2{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  h3{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  h4{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  p{
+    padding: 5px;
+  }
+
+  .homePage button {
+    width: 110px;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .primeNumbers{
+    display: block;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .btn-game-play{
+    text-align: center;
+  }
+
+  .btn-game-play .btn{
+    width: 145px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  label{
+    display: block;
+    text-align: center;
+  }
+
+  .main-centering{
+    margin-top: 15%;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-brand{
+    margin: 0 !important;
+    height: 90px;
+  }
+
+  .navbar-brand img{
+    width: 70px;
+    height: 70px;
+  }
+
+  .navbar-nav{
+    flex-direction: unset !important;
+    font-size: 30px;
+  }
+
+  .navbar-nav li{
+    font-size: 25px;
+    padding-right: 25px;
+  }
+
+  h1{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 8%;
+  }
+
+  h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  h3{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  h4{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  p{
+    padding: 5px;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 20px;
+  }
+
+  .homePage button {
+    width: 200px;
+    display: block;
+    margin: 30px auto;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .primeNumbers{
+    display: block;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .btn-game-play{
+    text-align: center;
+  }
+
+  .btn-game-play .btn{
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  label{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5%;
+  }
+
+  .main-centering{
+    margin-top: 15%;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-brand{
+    margin: 0 !important;
+    height: 130px;
+  }
+
+  .navbar-brand img{
+    width: 125px;
+    height: 125px;
+  }
+
+  .navbar-nav li{
+    padding-left: 40px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  h1{
+    font-size: 50px;
+    margin-top: 8%;
+  }
+
+  h2{
+    font-size: 45px;
+    margin-top: 30px;
+  }
+
+  h3{
+    font-size: 40px;
+    margin-top: 30px;
+  }
+
+  h4{
+    font-size: 32px;
+    margin-top: 20px;
+  }
+
+  p{
+    padding: 5px;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 30px;
+  }
+
+  .homePage button {
+    width: 250px;
+    margin: 30px auto;
+    font-size: 35px;
+  }
+
+  .primeNumbers{
+    font-size: 60px;
+  }
+
+  .btn-game-play .btn{
+    width: 260px;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 32px;
+    margin-top: 20px;
+  }
+
+  label{
+    font-size: 35px;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-brand{
+    margin: 0 !important;
+    height: 50px;
+  }
+
+  .navbar-brand img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .navbar-nav li{
+    font-size: 20px;
+  }
+
+  h1{
+    font-size: 42px;
+    margin-top: 2%;
+  }
+
+  h2{
+    font-size: 37px;
+    margin-top: none;
+  }
+
+  h3{
+    font-size: 32px;
+    margin-top: 30px;
+  }
+
+  h4{
+    font-size: 27px;
+    margin-top: 20px;
+  }
+
+  p{
+    padding: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 30px;
+  }
+
+  .main-centering{
+    margin-top: 2%;
+  }
+
+  .homePage button {
+    width: 225px;
+    font-size: 25px;
+  }
+}
